@@ -11,9 +11,9 @@ export default function App() {
   const [pictureName,setPictureName] = useState('');
   const [page,setPage] = useState(1);
   const [picture,setPicture] = useState([]);
-  const [error,setError] = useState(null);
+  const [,setError] = useState(null);
   const [buttonLoad,setButtonLoad] = useState(false);
-  const [totalImages,setTotalImages] = useState(0);
+  const [,setTotalImages] = useState(0);
   const [bigImg,setBigImg] = useState('');
   const [showModal,setShowModal] = useState(false);
   const [loading,setLoading]= useState(false);
